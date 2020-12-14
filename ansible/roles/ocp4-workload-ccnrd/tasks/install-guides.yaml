@@ -17,7 +17,7 @@
     -e GIT_URL=http://gogs-labs-infra.{{ route_subdomain }}
     -e ROUTE_SUBDOMAIN={{ route_subdomain }}
     -e CONTENT_URL_PREFIX="https://raw.githubusercontent.com/RedHat-Middleware-Workshops/cloud-native-workshop-v2{{ guide }}-guides/ocp-4.6"
-    -e WORKSHOPS_URLS="https://github.com/tnscorcoran/cloud-native-workshop-v2m1-guides/blob/ocp-4.6/_cloud-native-workshop-module1.yml"
+    -e WORKSHOPS_URLS="https://raw.githubusercontent.com/tnscorcoran/cloud-native-workshop-v2m1-guides/ocp-4.6/_cloud-native-workshop-module1.yml"
     -e CHE_USER_NAME={{ workshop_che_user_name }}
     -e CHE_USER_PASSWORD={{ workshop_che_user_password }}
     -e OPENSHIFT_USER_NAME={{ workshop_openshift_user_name }}
